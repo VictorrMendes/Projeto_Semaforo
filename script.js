@@ -6,7 +6,6 @@ let intervalID = null;
 const trafficlight = ( event ) => {
     stopAutomatic();
     turnOn[event.target.id]();
-    
 }
 
 const nextIndex = () => {
@@ -36,3 +35,7 @@ const turnOn = {
 }
 
 buttons.addEventListener ('click' , trafficlight);
+
+//fim//
+
+
